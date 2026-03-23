@@ -1,165 +1,169 @@
-# BSC_DPDM2025
-Prommin Sripo 663020286-6
+# 🚀 BSC_DPDM2025  
+![GitHub repo size](https://img.shields.io/github/repo-size/kxilll/BSC_DPDM2025)
+![GitHub last commit](https://img.shields.io/github/last-commit/kxilll/BSC_DPDM2025)
+![Status](https://img.shields.io/badge/status-active-success)
+![Course](https://img.shields.io/badge/course-Data%20Mining-blue)
 
-> สรุปเนื้อหา Chapter 1: Introduction to Data Mining  
+> *From Raw Data → Insight → Decision*
 
-## 🔍 Data Mining คืออะไร
-Data Mining คือกระบวนการค้นหารูปแบบหรือความรู้ที่ “น่าสนใจ มีความหมาย และมีประโยชน์” จากข้อมูลจำนวนมหาศาล โดยเป็นส่วนสำคัญในกระบวนการ KDD (Knowledge Discovery in Databases) ซึ่งประกอบด้วย:
-- Data Cleaning  
-- Data Integration  
-- Data Selection  
-- Data Mining  
-- Pattern Evaluation  
-- Knowledge Presentation  
+---
 
-## 🚀 ทำไมต้อง Data Mining
-- ปริมาณข้อมูลเติบโตจาก TB → PB  
-- แหล่งข้อมูลหลากหลาย: ธุรกิจ วิทยาศาสตร์ ออนไลน์ อุปกรณ์ IoT  
-- “ข้อมูลล้น แต่ขาดความรู้ (We are drowning in data but starving for knowledge)”  
-- จำเป็นต้องมีวิธีอัตโนมัติในการค้นหารูปแบบจากชุดข้อมูลขนาดใหญ่
+## 👤 Author Information
+- **Name:** พรหมมินทร์ ศรีโพธิ์  
+- **Student ID:** 663020286-6  
+- **Course:** Data Preparation & Data Mining  
+- **Assignment:** HW1  
 
+---
 
-## 🧭 ประเภทของข้อมูลที่ทำเหมืองได้
-- Relational Databases / Data Warehouse  
-- Transactional Data  
-- Data Streams / Sensor Data  
-- Time-series, Sequence, Temporal Data  
-- Graph / Social Network  
-- Spatial / Multimedia  
-- Text Mining และ Web Mining  
+## 🧠 Overview
+Data Mining คือกระบวนการเปลี่ยน “ข้อมูลจำนวนมหาศาล”  
+ให้กลายเป็น “ความรู้ที่นำไปใช้ได้จริง”  
 
+ไม่ใช่แค่การดูข้อมูล แต่คือการ “เข้าใจ วิเคราะห์ และทำนาย”  
 
-## 📊 รูปแบบของ Pattern ที่ค้นหาได้
-### 1. Generalization  
-การสรุปและเปรียบเทียบข้อมูล เช่น OLAP / Data Cube  
-### 2. Frequent Patterns & Association Rules  
-ค้นหารายการที่เกิดร่วมกัน เช่น Market Basket Analysis  
-### 3. Classification  
-ทำนาย label เช่น Decision Tree, SVM, Neural Network  
-### 4. Clustering  
-จัดกลุ่มข้อมูลแบบไม่มี label  
-### 5. Outlier Detection  
-หาค่าผิดปกติ ใช้ใน fraud detection  
-### 6. Sequential & Time-Series Patterns  
-แนวโน้ม ลำดับเหตุการณ์ และคาดการณ์  
-### 7. Structure & Network Mining  
-วิเคราะห์โครงสร้างข้อมูลที่เป็น graph และเครือข่าย
+---
 
-## 🛠 เทคโนโลยีที่เกี่ยวข้อง
-Data Mining เป็นสหวิทยาการ ประกอบด้วย:
+# 📖 Chapter 1: Introduction to Data Mining
+
+## 🔥 Why Data Mining?
+โลกในปัจจุบันมีข้อมูลเพิ่มขึ้นอย่างต่อเนื่อง  
+แต่ข้อมูลจะไม่มีความหมายเลย หากไม่สามารถนำมาวิเคราะห์ได้  
+
+Data Mining จึงมีบทบาทในการ:
+- 🔍 ค้นหา insight ที่ซ่อนอยู่  
+- 📊 วิเคราะห์พฤติกรรม  
+- 📈 ทำนายแนวโน้มในอนาคต  
+- 🎯 สนับสนุนการตัดสินใจ  
+
+---
+
+## 🔍 What is Data Mining?
+Data Mining คือกระบวนการค้นหารูปแบบ (patterns)  
+และความรู้จากข้อมูลขนาดใหญ่  
+
+โดยอาศัย:
 - Machine Learning  
 - Statistics  
-- Database Systems  
-- Pattern Recognition  
-- High-Performance Computing  
+- Algorithms  
+
+---
+
+## 🌐 Multi-Dimensional View
+
+### 🧩 Task-Oriented
+- Classification  
+- Clustering  
+- Association  
+
+### 📂 Data-Oriented
+- Structured  
+- Unstructured  
+- Multimedia  
+
+### ⚙️ Technology-Oriented
+- AI / Machine Learning  
+- Data Warehouse  
 - Visualization  
 
-## 🏭 ตัวอย่างการประยุกต์ใช้งาน
-- Web Page Analysis & Ranking  
-- Recommender Systems  
-- Targeted Marketing  
-- Bioinformatics & Medical Analysis  
-- Software Engineering Analytics  
-- Social Network Analysis  
-- ระบบค้นหาขนาดใหญ่ เช่น Google, Facebook  
+---
 
-## ⚠️ ประเด็นสำคัญและความท้าทาย
-- ความเร็วและประสิทธิภาพของอัลกอริทึม  
-- ความซับซ้อนของข้อมูล (text, graph, multimedia)  
-- การทำเหมืองข้อมูลแบบ distributed / streaming  
-- Privacy-preserving Data Mining  
-- การนำเสนอผลลัพธ์ให้ผู้ใช้เข้าใจได้ง่าย  
+## 💾 Types of Data
 
-> สรุปเนื้อหา chapter 2 : ทำความรู้จักข้อมูลของคุณ (Getting to Know Your Data)
+| Type | Example |
+|------|--------|
+| Structured | Database |
+| Semi-structured | JSON, XML |
+| Unstructured | Text, Reviews |
+| Multimedia | Image, Video |
+| Time-series | Stock, IoT |
+| Web Data | Logs |
 
-บทนี้เป็นพื้นฐานสำคัญของงาน Data Mining และงานวิเคราะห์ข้อมูลทุกประเภท  
-หัวใจคือ “ก่อนวิเคราะห์หรือสร้างโมเดล ต้องเข้าใจข้อมูลของตัวเองก่อน”
+---
 
-## 🔹 1. Data Objects และ Attribute Types
+## 📊 Patterns
 
-ข้อมูลประกอบด้วย 2 โครงสร้างหลัก:
-- **Data objects (แถว)** — เช่น ลูกค้า ผู้ป่วย นักศึกษา รายการขาย
-- **Attributes/Features (คอลัมน์)** — คุณสมบัติหรือค่าที่อธิบาย object
+- 🎯 Classification  
+- 🧠 Clustering  
+- 🛒 Association Rules  
+- ⏳ Sequential Pattern  
+- 🚨 Outlier Detection  
+- 📈 Prediction  
 
-ประเภทของ attribute ได้แก่:
+---
 
-1. **Nominal** — เป็นกลุ่ม/ชื่อ เช่น สีผม จังหวัด รหัสไปรษณีย์  
-2. **Binary** — มี 2 ค่า เช่น Positive/Negative, Yes/No  
-   - แบบ symmetric (สำคัญเท่ากัน)
-   - แบบ asymmetric (ความหมายต่างกัน เช่นผลตรวจโรค)  
-3. **Ordinal** — มีลำดับแต่ระยะห่างไม่แน่นอน เช่น ชั้นปี รางวัล ระดับความพึงพอใจ  
-4. **Numeric**
-   - **Interval-scaled** — ไม่มี zero จุดแท้จริง เช่น องศาเซลเซียส
-   - **Ratio-scaled** — มี zero จริง เช่น ความยาว น้ำหนัก เงิน
+## ⚙️ Technologies
 
-> การเข้าใจประเภทข้อมูล = เลือกวิธี preprocessing, scaling และ distance metric ได้ถูกต้อง
+- Database Systems  
+- Data Warehouse / OLAP  
+- Machine Learning  
+- Big Data (Hadoop / Spark)  
+- Cloud Computing  
 
-## 🔹 2. Basic Statistical Descriptions — ใช้สถิติอ่านโครงสร้างข้อมูล
+---
 
-ใช้เพื่อเข้าใจ “ค่ากลาง” และ “การกระจายตัว”
+## 🎯 Applications
 
-### ค่ากลาง (Central Tendency)
-- ค่าเฉลี่ย (Mean)
-- Median (ค่ากึ่งกลาง)
-- Mode (ค่าที่เกิดบ่อยที่สุด)
+| Field | Example |
+|------|--------|
+| Marketing | Personalization |
+| Retail | Basket Analysis |
+| Finance | Fraud Detection |
+| Healthcare | Disease Prediction |
+| Telecom | Churn Analysis |
+| Industry | Predictive Maintenance |
 
-### การกระจายตัว (Dispersion)
-- Variance / Standard deviation
-- Quartiles และ **IQR**
-- Outlier detection (เช่น 1.5×IQR)
+📌 Example:  
+ในชีวิตจริง เช่น Grab หรือ Food Delivery  
+จะใช้ Data Mining ในการแนะนำร้านอาหาร  
+โดยวิเคราะห์จากพฤติกรรมการสั่งซื้อของผู้ใช้  
+เช่น เวลาที่สั่ง ประเภทอาหาร และความถี่  
 
-### เครื่องมือสำรวจรูปแบบข้อมูล
-- Boxplot (ดู dispersion + outlier)
-- Histogram (รูปทรงการกระจาย เช่น skewed)
-- Scatter plot (ดูความสัมพันธ์ 2 ตัวแปร)
-- Quantile/QQ plot (ตรวจ normality)
+---
 
-> Note: กล่องข้อมูลเดียวกันอาจมี boxplot เหมือนกัน แต่ Histogram เผย distribution ต่างกัน
+## ⚠️ Challenges
 
-## 🔹 3. Data Visualization — ทำข้อมูลให้ “เห็นได้จริง”
+- ❌ ข้อมูลไม่สะอาด (missing, noise)  
+- 🔒 Privacy  
+- 📦 Big Data → scale ยาก  
+- 🤯 การตีความผลลัพธ์  
 
-การแปลงข้อมูลเป็นภาพเพื่อ:
-✔ มอง pattern ได้เร็วขึ้น  
-✔ หา anomaly, cluster, relation  
-✔ เลือก parameter ก่อนทำโมเดล  
+---
 
-ตัวอย่างเทคนิค visualization:
-- Pixel-oriented map
-- Parallel coordinates
-- Treemap (แสดงความสัมพันธ์เชิงลำดับชั้น)
-- Tag cloud (นิยมใน text mining)
-- Social / information network visualization
+## 🕰️ Evolution of Data Mining
 
-การมองภาพภายในข้อมูลคือ “ขั้นตอนสำรวจเชิงคุณภาพ (Exploratory Data Analysis: EDA)”  
-และช่วยตัดสินใจเชิงปฏิบัติ เช่น scaling, encoding, sampling
+- 📊 เริ่มจากสถิติ  
+- 🗄️ พัฒนาในยุคฐานข้อมูล  
+- 🤖 รวมกับ Machine Learning  
+- 🚀 เติบโตในยุค Big Data  
+- 🧠 ปัจจุบันเป็นส่วนหนึ่งของ AI  
 
-## 🔹 4. Similarity & Dissimilarity Measures — วัดว่าข้อมูลเหมือนหรือต่างแค่ไหน
+---
 
-ใช้ใน clustering, recommendation, anomaly detection, retrieval ฯลฯ
+## 🧾 Summary
 
-### 4.1 Metric บนข้อมูลเชิงตัวเลข
-- **Minkowski distance (Lᵖ norm)**
-  - L1 = Manhattan
-  - L2 = Euclidean
-  - L∞ = Maximum difference  
+Data Mining คือการเปลี่ยน  
+**Data → Insight → Decision**
 
-คุณสมบัติ metric:
-- non-negativity
-- symmetry
-- triangle inequality
+✔ ใช้ Machine Learning และสถิติ  
+✔ สามารถนำไปใช้ได้ในหลายอุตสาหกรรม  
+✔ เป็นพื้นฐานสำคัญของเทคโนโลยี AI  
 
-### 4.2 Binary attribute
-- Symmetric vs Asymmetric  
-- **Jaccard similarity** เหมาะกับ asymmetric case เช่น pattern discovery
+---
 
-### 4.3 Categorical attribute
-- Matching coefficient หรือแปลงเป็น one-hot/Binary
+## 🧩 Concept Map
 
-### 4.4 Ordinal + Mixed data
-- Map เป็น rank → scale 0–1 → treat as interval
-- ใช้ **weighted distance** รวมหลาย type ได้
+```mermaid
+graph TD
+A[Data Mining] --> B[Data Types]
+A --> C[Patterns]
+A --> D[Technologies]
+A --> E[Applications]
 
-### 4.5 Vector similarity
-- **Cosine similarity** นิยมใน text mining, document retrieval
+C --> C1[Classification]
+C --> C2[Clustering]
+C --> C3[Association]
 
-> การเลือก similarity/distance ที่ถูกต้องส่งผลต่อ clustering accuracy อย่างมาก
+E --> E1[Marketing]
+E --> E2[Finance]
+E --> E3[Healthcare]
