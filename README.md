@@ -20,7 +20,8 @@
 Data Mining คือกระบวนการเปลี่ยน “ข้อมูลจำนวนมหาศาล”  
 ให้กลายเป็น “ความรู้ที่นำไปใช้ได้จริง”  
 
-ไม่ใช่แค่การดูข้อมูล แต่คือการ “เข้าใจ วิเคราะห์ และทำนาย”  
+👉 ไม่ใช่แค่ดูข้อมูล  
+แต่ต้อง “เข้าใจ + วิเคราะห์ + ทำนาย”
 
 ---
 
@@ -121,6 +122,34 @@ Data Mining คือกระบวนการค้นหารูปแบ�
 
 ---
 
+## 🔄 Data Mining Pipeline
+
+1. Data Collection  
+2. Data Cleaning  
+3. Data Transformation  
+4. Modeling  
+5. Evaluation  
+6. Deployment  
+
+👉 เปลี่ยน Data → Insight → Decision
+
+---
+
+## 📊 Real-World Example
+
+Example: Food Delivery Recommendation System
+
+- Input: user behavior (time, order history, preferences)  
+- Process: clustering + classification  
+- Output: recommended restaurant  
+
+👉 Result:
+- เพิ่ม conversion rate  
+- เพิ่มยอดขาย  
+- เพิ่ม user engagement  
+
+---
+
 ## ⚠️ Challenges
 
 - ❌ ข้อมูลไม่สะอาด (missing, noise)  
@@ -140,6 +169,15 @@ Data Mining คือกระบวนการค้นหารูปแบ�
 
 ---
 
+## 🛠️ Tools Used in Data Mining
+
+- Python (Pandas, Scikit-learn)  
+- SQL / DuckDB  
+- Power BI / Looker Studio  
+- Spark / Hadoop  
+
+---
+
 ## 🧾 Summary
 
 Data Mining คือการเปลี่ยน  
@@ -151,18 +189,30 @@ Data Mining คือการเปลี่ยน
 
 ---
 
+## 🚀 Key Takeaways
+
+- Data Mining ≠ การดูข้อมูล แต่คือ “การสร้างการตัดสินใจ”  
+- Value อยู่ที่ “Insight ไม่ใช่ Data”  
+- เป็นหัวใจของ AI และ Business Analytics  
+
+---
+
 ## 🧩 Concept Map
 
 ```mermaid
 graph TD
 A[Data Mining] --> B[Data Types]
-A --> C[Patterns]
-A --> D[Technologies]
+A --> C[Techniques]
+A --> D[Process]
 A --> E[Applications]
 
 C --> C1[Classification]
 C --> C2[Clustering]
 C --> C3[Association]
+
+D --> D1[Cleaning]
+D --> D2[Modeling]
+D --> D3[Evaluation]
 
 E --> E1[Marketing]
 E --> E2[Finance]
